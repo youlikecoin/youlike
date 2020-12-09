@@ -1,0 +1,22 @@
+[Unit]
+Description=YouLike's distributed currency daemon
+After=network.target
+
+[Service]
+User=youlikecore
+Group=youlikecore
+
+Type=forking
+PIDFile=/var/lib/youliked/youliked.pid
+ExecStart=/usr/bin/youliked -daemon -pid=/var/lib/youliked/youliked.pid \
+-conf=/etc/youlikecore/youlike.conf -datadir=/var/lib/youliked -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

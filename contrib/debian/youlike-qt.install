@@ -1,0 +1,6 @@
+usr/local/bin/youlike-qt usr/bin
+share/pixmaps/youlike32.xpm usr/share/pixmaps
+share/pixmaps/youlike16.xpm usr/share/pixmaps
+share/pixmaps/youlike128.png usr/share/pixmaps
+debian/youlike-qt.desktop usr/share/applications
+debian/youlike-qt.protocol usr/share/kde4/services/

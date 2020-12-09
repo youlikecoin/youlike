@@ -1,0 +1,25 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="ar">locale/youlike_ar.qm</file>
+        <file alias="bg">locale/youlike_bg.qm</file>
+        <file alias="de">locale/youlike_de.qm</file>
+        <file alias="en">locale/youlike_en.qm</file>
+        <file alias="es">locale/youlike_es.qm</file>
+        <file alias="fi">locale/youlike_fi.qm</file>
+        <file alias="fr">locale/youlike_fr.qm</file>
+        <file alias="it">locale/youlike_it.qm</file>
+        <file alias="ja">locale/youlike_ja.qm</file>
+        <file alias="ko">locale/youlike_ko.qm</file>
+        <file alias="nl">locale/youlike_nl.qm</file>
+        <file alias="pl">locale/youlike_pl.qm</file>
+        <file alias="pt">locale/youlike_pt.qm</file>
+        <file alias="ru">locale/youlike_ru.qm</file>
+        <file alias="sk">locale/youlike_sk.qm</file>
+        <file alias="sv">locale/youlike_sv.qm</file>
+        <file alias="th">locale/youlike_th.qm</file>
+        <file alias="tr">locale/youlike_tr.qm</file>
+        <file alias="vi">locale/youlike_vi.qm</file>
+        <file alias="zh_CN">locale/youlike_zh_CN.qm</file>
+        <file alias="zh_TW">locale/youlike_zh_TW.qm</file>
+    </qresource>
+</RCC>
