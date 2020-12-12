@@ -21,6 +21,8 @@ $ mkdir -p depends/sdk-sources
 $ mkdir -p depends/SDKs
 $ curl https://bitcoincore.org/depends-sources/sdks/MacOSX10.11.sdk.tar.gz -o depends/sdk-sources/MacOSX10.11.sdk.tar.gz
 $ tar -C depends/SDKs -xf depends/sdk-sources/MacOSX10.11.sdk.tar.gz
+$ patch packages/native_ds_store.mk patches/native_ds_store_patch
+$ patch packages/native_mac_alias.mk patches/native_mac_alias_patch
 ```
 
 When building the dependencies, as described in [build-generic](build-generic.md), use
